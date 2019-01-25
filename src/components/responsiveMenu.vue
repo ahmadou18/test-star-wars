@@ -1,6 +1,7 @@
 <template>
   <nav>
-    <ul>
+    <button class="btn-close" :class="{ close: hidden }" @click="triggerSideMenu()"></button>
+    <ul id="responsive-menu" :class="{ openmenu: hidden }">
       <li>
         <router-link to="/">le coté lumineux</router-link>
       </li>
@@ -25,7 +26,18 @@
 
 <script>
 export default {
-  name: "Navbar"
+  name: "Navbar",
+  data() {
+    return {
+      hidden: true
+    };
+  },
+
+  methods: {
+    triggerSideMenu() {
+      this.hidden = !this.hidden;
+    }
+  }
 };
 </script>
 
@@ -40,7 +52,7 @@ nav {
 
 @media screen and (max-width: 960px) {
   nav {
-    display: none;
+    display: block !important;
   }
 }
 
@@ -53,11 +65,38 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: black;
 }
 
 li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.close {
+  display: block;
+}
+
+.open {
+  display: none;
+}
+
+.openmenu {
+  display: none;
+}
+
+.btn-close {
+  background-image: url("../assets/menu.png");
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 999;
 }
 </style>

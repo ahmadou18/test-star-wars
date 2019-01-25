@@ -74,6 +74,23 @@ export default {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 768px) {
+  #container {
+    padding: 1%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    font-size: 25px;
+    width: 80% !important;
+  }
+
+  .image {
+    width: 90% !important;
+    background-size: cover;
+  }
+}
+
 .text {
   width: 50%;
 }
@@ -81,7 +98,9 @@ export default {
 .image {
   width: 30%;
   height: 100vh;
-  background: red;
+  background-image: url("../assets/ad.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
 }
 
 .header-mid {
@@ -111,7 +130,7 @@ export default {
 .img {
   width: 30%;
   height: 40vh;
-  background: red;
+  background-image: url("../assets/r2d2_c3p0.jpg");
 }
 
 .img-txt p {

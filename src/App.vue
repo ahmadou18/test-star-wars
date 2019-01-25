@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <responsiveMenu/>
     <Navbar/>
     <Header/>
     <router-view/>
@@ -9,12 +10,14 @@
 <script>
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
+import responsiveMenu from "@/components/responsiveMenu";
 
 export default {
   name: "App",
   components: {
     Header,
-    Navbar
+    Navbar,
+    responsiveMenu
   }
 };
 </script>
@@ -26,4 +29,19 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* @media screen and (max-width: 960px) {
+  responsiveMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 961px) {
+  responsiveMenu {
+    display: none;
+  }
+
+  Navbar {
+    display: block;
+  }
+} */
 </style>
