@@ -89,6 +89,7 @@ li a {
 }
 
 .btn-close {
+  cursor: pointer;
   background-image: url("../assets/menu.png");
   background-color: black;
   width: 30px;
@@ -98,5 +99,7 @@ li a {
   background-position: center;
   position: absolute;
   z-index: 999;
+  right: 10px;
+  top: 10px;
 }
 </style>
