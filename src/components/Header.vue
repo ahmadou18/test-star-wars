@@ -18,4 +18,9 @@ export default {
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width: 768px) {
+  .star-wars-header {
+    height: 30vh;
+  }
+}
 </style>
