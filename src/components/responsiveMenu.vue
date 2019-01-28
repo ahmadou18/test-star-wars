@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav id="responsive-navbar">
     <button class="btn-close" :class="{ close: hidden }" @click="triggerSideMenu()"></button>
     <ul id="responsive-menu" :class="{ openmenu: hidden }">
       <li>
@@ -47,12 +47,15 @@ nav {
   width: 100%;
   height: 50px;
   position: fixed;
-  background-color: black;
 }
 
-@media screen and (max-width: 960px) {
-  nav {
-    display: block !important;
+@media screen and (min-width: 960px) {
+  #responsive-navbar {
+    display: none;
+  }
+
+  button {
+    display: none;
   }
 }
 
@@ -67,13 +70,19 @@ ul {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background: black;
+  background-image: url("../assets/header-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  transform: translate3d(0);
+  transition: all 0.5s ease-in-out;
 }
 
 li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .close {
@@ -85,7 +94,7 @@ li a {
 }
 
 .openmenu {
-  display: none;
+  transform: translate3d(0, -100%, 0);
 }
 
 .btn-close {
