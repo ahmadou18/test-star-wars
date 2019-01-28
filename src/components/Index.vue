@@ -2,15 +2,20 @@
   <main>
     <section id="container">
       <section class="text">
-        <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+        <p>
+          Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
           <br>
           <br>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
           <br>
           <br>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
           <br>
-          <br>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
+          <br>Un mystérieux guerrier,
+          <span>Kylo Ren</span>, semble vouer un culte à
+          <span>Dark Vador</span> et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
           <br>
-          <br>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+          <br>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la
+          <span>« Résistance »</span>, combattent les vestiges de l'Empire réunis sous la bannière du
+          <span>« Premier Ordre »</span>.
           <br>
           <br>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
         </p>
@@ -24,12 +29,17 @@
       <section class="img-txt">
         <figure class="img"></figure>
         <p>
-          La Guerre des étoiles (titre original Star Wars, soit littéralement Guerres Stellaires ) est une épopée cinématographique de science-fiction créée par George Lucas, considérée comme un élément phare du space opera. Prévue à la base pour être une suite de trois trilogies (triptyque), Lucas fut contraint, par manque de moyens techniques, de commencer par la seconde trilogie (l'Épisode IV - Un nouvel espoir) en 1977. La série connut un succès phénoménal partout dans le monde et engendra une très importante communauté de fans.
+          <span>La Guerre des étoiles</span> (titre original
+          <span>Star Wars</span>, soit littéralement Guerres Stellaires ) est une épopée cinématographique de science-fiction créée par George Lucas, considérée comme un élément phare du space opera. Prévue à la base pour être une suite de trois trilogies (triptyque), Lucas fut contraint, par manque de moyens techniques, de commencer par la seconde trilogie (
+          <span>l'Épisode IV - Un nouvel espoir</span>) en 1977. La série connut un succès phénoménal partout dans le monde et engendra une très importante communauté de fans.
           Sans prétendre expliquer le succès du premier film (s'il y avait une recette, cela se saurait), on peut, toutefois, noter que, malgré le manque de moyens (le budget était relativement modeste, les acteurs presque inconnus) :
         </p>
       </section>
-      <p>- Il fait appel à des références connues et appréciées des jeunes de l'époque : films de cape et d'épée, westerns, péplums, contes de fées et même le Seigneur des Anneaux de J.R.R. Tolkien ; cette œuvre n'apparaît pas comme de la science-fiction au sens strict mais plutôt comme du space fantasy.
-        <br>- Les effets spéciaux, supervisés par Ken Ralston, étaient réellement novateurs, avec notamment la participation de John Dykstra (qui a également participé au premier film de Star Trek), qui avait développé une nouvelle manière d'animer les maquettes des vaisseaux en coordonnant leurs mouvements par ordinateur (Dykstraflex).
+      <p>
+        - Il fait appel à des références connues et appréciées des jeunes de l'époque : films de cape et d'épée, westerns, péplums, contes de fées et même
+        <span>le Seigneur des Anneaux</span> de J.R.R. Tolkien ; cette œuvre n'apparaît pas comme de la science-fiction au sens strict mais plutôt comme du space fantasy.
+        <br>- Les effets spéciaux, supervisés par Ken Ralston, étaient réellement novateurs, avec notamment la participation de John Dykstra (qui a également participé au premier film de
+        <span>Star Trek</span>), qui avait développé une nouvelle manière d'animer les maquettes des vaisseaux en coordonnant leurs mouvements par ordinateur (Dykstraflex).
         <br>- Le film a développé un univers cohérent, avec, comme préoccupation constante, autant la création d'une ambiance que l'action proprement dite.
         <br>- La musique, composée par John Williams, introduit des thèmes récurrents et des leitmotivs (procédé classique mais renforçant la cohérence).
         <br>
@@ -115,6 +125,16 @@ export default {
   font-size: 18px;
 }
 
+.text p span {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    text-align: center;
+  }
+}
+
 .image {
   width: 30%;
   height: 100vh;
@@ -145,6 +165,7 @@ export default {
 
 #lore-container p {
   font-size: 14px;
+  line-height: 25px;
 }
 
 .img-txt {
@@ -162,8 +183,8 @@ export default {
 
 .img {
   margin-left: 0;
-  width: 30%;
-  height: 40vh;
+  width: 40%;
+  height: 51vh;
   background-image: url("../assets/r2d2_c3p0.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -172,11 +193,17 @@ export default {
 @media screen and (max-width: 768px) {
   .img {
     width: 100%;
+    margin-left: 40px;
   }
 }
 
 .img-txt p {
   width: 70%;
+}
+
+.img-txt p span {
+  font-weight: bold;
+  font-style: italic;
 }
 
 @media screen and (max-width: 768px) {
