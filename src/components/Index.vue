@@ -18,7 +18,7 @@
       <figure class="image"></figure>
     </section>
 
-    <header class="header-mid"></header>
+    <section class="header-mid"></section>
     <section id="lore-container">
       <h1>A long time ago, in a galaxy far, far away…</h1>
       <section class="img-txt">
@@ -130,6 +130,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 /* lore-container */
