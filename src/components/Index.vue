@@ -2,7 +2,18 @@
   <main>
     <section id="container">
       <section class="text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, hic earum similique fuga itaque saepe porro placeat totam dignissimos nam nisi aliquam, doloremque consequuntur iure laboriosam impedit facere accusantium voluptate ullam error? Nostrum pariatur praesentium ab voluptate nulla quia facilis corporis! Porro cum rerum doloribus labore, at iusto distinctio fugit reprehenderit quibusdam asperiores, voluptate laudantium eius? Aspernatur quis quos aperiam veniam obcaecati iure alias vitae. Aliquam eligendi voluptates natus quod eaque excepturi harum quos corporis sapiente, perspiciatis obcaecati debitis error. Necessitatibus corrupti beatae culpa, maiores obcaecati ipsum ullam saepe laudantium modi ratione inventore quod, dolores quisquam. Placeat labore hic perferendis cum facilis deserunt optio? Libero, alias corporis. Dolorem iure ratione, dolor a itaque eveniet aliquid suscipit sunt excepturi beatae impedit, cupiditate eum tempora officia? Delectus repellendus cupiditate repudiandae error at vero laborum tempore, placeat sequi magnam saepe, adipisci cum veritatis obcaecati expedita soluta voluptatem debitis sint! Itaque rerum minus debitis laborum corporis recusandae odit repellat eaque, et iure tempora qui rem culpa placeat natus ipsa quia facere exercitationem dignissimos aspernatur nesciunt? Porro earum aut cupiditate explicabo aliquam provident eveniet ipsa deserunt aliquid sequi, voluptas iste fugit similique voluptatibus dignissimos ut esse culpa, nihil sint debitis cumque error, quidem libero velit. Aspernatur cumque neque labore corrupti harum minus nobis facilis omnis molestias. Repudiandae cumque, voluptas praesentium non ea quam illo, nesciunt corrupti amet ad consequatur quaerat nam vel minus soluta odio repellat deleniti quos distinctio sunt ipsam quo iusto quia nulla. Natus ullam corrupti dolor quo tempore optio enim, odio recusandae, minima quas, ipsam aliquam. Error amet corrupti officiis exercitationem nulla accusamus asperiores ex fugit impedit autem. Corporis modi nisi atque fugit nemo error repellendus. Ad asperiores dolor, facere quia deserunt ex voluptate praesentium at, repellat omnis dolorem voluptas impedit nemo sunt amet, eveniet sapiente vero beatae fuga cum. Ratione, eos.</p>
+        <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+          <br>
+          <br>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
+          <br>
+          <br>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+          <br>
+          <br>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
+          <br>
+          <br>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+          <br>
+          <br>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.
+        </p>
       </section>
       <figure class="image"></figure>
     </section>
@@ -12,9 +23,17 @@
       <h1>A long time ago, in a galaxy far, far away…</h1>
       <section class="img-txt">
         <figure class="img"></figure>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum harum iste nihil laudantium. Quibusdam optio nostrum beatae? Aspernatur consectetur assumenda officia consequuntur quia quas eaque sit, beatae accusamus facilis ipsa labore repellendus repudiandae deleniti fuga nisi quaerat, nulla magnam necessitatibus culpa commodi perspiciatis. Sed commodi enim dolores asperiores, quidem maxime dolorum aspernatur temporibus numquam voluptate quam animi, qui incidunt architecto magni sunt tenetur minima nemo nulla culpa accusamus perspiciatis? Distinctio asperiores minus, minima harum aspernatur quibusdam dignissimos provident vero consequatur commodi qui illo libero accusamus laboriosam blanditiis facere a nostrum totam, labore sequi non. Saepe vel totam eum quibusdam. Vitae.</p>
+        <p>
+          La Guerre des étoiles (titre original Star Wars, soit littéralement Guerres Stellaires ) est une épopée cinématographique de science-fiction créée par George Lucas, considérée comme un élément phare du space opera. Prévue à la base pour être une suite de trois trilogies (triptyque), Lucas fut contraint, par manque de moyens techniques, de commencer par la seconde trilogie (l'Épisode IV - Un nouvel espoir) en 1977. La série connut un succès phénoménal partout dans le monde et engendra une très importante communauté de fans.
+          Sans prétendre expliquer le succès du premier film (s'il y avait une recette, cela se saurait), on peut, toutefois, noter que, malgré le manque de moyens (le budget était relativement modeste, les acteurs presque inconnus) :
+        </p>
       </section>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae vel ab sapiente, consequuntur unde, cupiditate tempora dignissimos assumenda eum obcaecati repellat, officiis eligendi aliquid minima dolor molestias nostrum corporis. Illum explicabo, hic, maiores quae vel rem vitae a accusantium quidem labore corporis ex? Quod, eaque iste. Quas sint dolor quisquam id labore totam vel blanditiis incidunt soluta laboriosam sit inventore minima earum itaque consectetur, reprehenderit, harum provident dolore quasi ipsa saepe delectus, eos facilis architecto. Asperiores, earum ab, repudiandae fugiat veritatis deleniti labore et veniam, recusandae autem nesciunt. Officiis possimus magnam beatae similique est inventore optio, fugit quidem officia corporis quo perferendis ullam atque obcaecati libero magni tempore? Ad possimus et corrupti officiis, distinctio ipsam. Illum magni quae nihil quod, maiores unde dolorum qui obcaecati vero, hic iusto! Obcaecati doloremque laboriosam, tempora eos eligendi nisi ex consequatur temporibus explicabo, exercitationem, dolorum expedita sint distinctio ipsam. Repellendus eveniet non vitae in, impedit beatae deserunt obcaecati sequi assumenda ut, aliquid adipisci necessitatibus vero minima rem nobis eos earum ad fugiat corrupti culpa quibusdam? Quod distinctio architecto eius quisquam dicta in quos maxime. Perferendis iste, explicabo aliquid necessitatibus temporibus, odit optio, qui eligendi maxime pariatur voluptate fuga! Repellendus deserunt expedita quisquam ratione explicabo?</p>
+      <p>- Il fait appel à des références connues et appréciées des jeunes de l'époque : films de cape et d'épée, westerns, péplums, contes de fées et même le Seigneur des Anneaux de J.R.R. Tolkien ; cette œuvre n'apparaît pas comme de la science-fiction au sens strict mais plutôt comme du space fantasy.
+        <br>- Les effets spéciaux, supervisés par Ken Ralston, étaient réellement novateurs, avec notamment la participation de John Dykstra (qui a également participé au premier film de Star Trek), qui avait développé une nouvelle manière d'animer les maquettes des vaisseaux en coordonnant leurs mouvements par ordinateur (Dykstraflex).
+        <br>- Le film a développé un univers cohérent, avec, comme préoccupation constante, autant la création d'une ambiance que l'action proprement dite.
+        <br>- La musique, composée par John Williams, introduit des thèmes récurrents et des leitmotivs (procédé classique mais renforçant la cohérence).
+        <br>
+      </p>
     </section>
     <section class="stormtroopers-img"></section>
     <footer id="footer">
@@ -69,7 +88,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #container {
-  padding: 10%;
+  padding: 6.5% 5.4% 6.5% 5.4%;
   display: flex;
   justify-content: space-around;
 }
@@ -93,6 +112,7 @@ export default {
 
 .text {
   width: 50%;
+  font-size: 18px;
 }
 
 .image {
@@ -114,12 +134,16 @@ export default {
 
 /* lore-container */
 #lore-container {
-  padding: 10%;
+  padding: 6.5% 5.4% 6.5% 5.4%;
 }
 
 #lore-container h1 {
   font-size: 20px;
   text-align: center;
+}
+
+#lore-container p {
+  font-size: 14px;
 }
 
 .img-txt {
@@ -136,9 +160,12 @@ export default {
 }
 
 .img {
+  margin-left: 0;
   width: 30%;
   height: 40vh;
   background-image: url("../assets/r2d2_c3p0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 768px) {
