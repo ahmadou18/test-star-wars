@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav v-on:scroll="onScroll()" id="navbar">
     <ul>
       <li>
         <router-link to="/">le coté lumineux</router-link>
@@ -25,17 +25,37 @@
 
 <script>
 export default {
-  name: "Navbar"
+  name: "Navbar",
+  methods: {
+    onScroll() {
+      let distance = window.pageYOffset;
+      let target = 300;
+
+      if (distance > target) {
+        document.querySelector("#navbar").style.backgroundColor =
+          "rgb(0, 0, 0, 0.8)";
+        console.log("bravo");
+      } else {
+        document.querySelector("#navbar").style.backgroundColor = "transparent";
+      }
+    }
+  },
+  created() {
+    window.addEventListener("scroll", this.onScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.onScroll);
+  }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-nav {
+#navbar {
   width: 100%;
   height: 50px;
   position: fixed;
-  background-color: black;
+  transition: all 0.8s ease-in-out;
 }
 
 @media screen and (max-width: 960px) {
