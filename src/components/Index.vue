@@ -127,14 +127,34 @@ export default {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .img-txt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .img {
   width: 30%;
   height: 40vh;
   background-image: url("../assets/r2d2_c3p0.jpg");
 }
 
+@media screen and (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
+}
+
 .img-txt p {
   width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .img-txt p {
+    width: 100%;
+  }
 }
 
 .stormtroopers-img {
